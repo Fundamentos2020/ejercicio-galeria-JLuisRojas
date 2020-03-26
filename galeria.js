@@ -103,6 +103,8 @@ function ClickEnPagina(e) {
 }
 
 function OnChangeNumber(e) {
+    console.log("hola");
+    
     numImgsPorPagina = e.value;
     page = 1;
     numPages = Math.floor(maxImgs / numImgsPorPagina);
